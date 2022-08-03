@@ -1,0 +1,51 @@
+/*news*/
+#part2{
+    width: 100%;
+    float: left;
+    display: flex;
+}
+
+.part2_box{
+    width: 300px;
+    float:left;
+    margin:20px;
+    border:2px solid #D3CEDF;
+    border-radius: 5px;
+    padding: 20px;
+    height: 430px;
+    position:relative;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.part2_box img{
+    width: 95%;/*100%=照片跟box一樣寬300px*/
+}
+
+.part2_box h2{
+    text-align: center;
+    font-family:"微軟正黑體";
+}
+
+.part2_box p{
+    font-family:"微軟正黑體";
+    line-height: 1.6;
+    height: 150px;
+    overflow:auto;
+}
+
+.new{
+    background-color: #f85863;
+    border-radius: 10px;
+    width: 40px;
+    padding: 5px;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    position:absolute;
+    top:-15px;
+    right:-10px;
+}
